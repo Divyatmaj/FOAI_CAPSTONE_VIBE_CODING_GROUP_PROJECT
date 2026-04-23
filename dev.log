@@ -1,0 +1,24 @@
+
+> smart-study-assistant@1.0.0 dev
+> vite
+
+Port 3000 is in use, trying another one...
+Port 3001 is in use, trying another one...
+
+  VITE v5.4.21  ready in 176 ms
+
+  ➜  Local:   http://localhost:3002/
+  ➜  Network: use --host to expose
+9:05:25 AM [vite] hmr update /src/App.jsx, /src/index.css, /src/pages/student/Setup.jsx, /src/pages/student/Flashcards.jsx, /src/pages/student/Planner.jsx, /src/pages/student/Notes.jsx, /src/pages/student/Quiz.jsx, /src/pages/teacher/Assignments.jsx, /src/pages/teacher/Dashboard.jsx, /src/pages/teacher/QuestionBank.jsx, /src/pages/student/Progress.jsx, /src/pages/teacher/StudentReports.jsx, /src/pages/buddy/SharedFlashcards.jsx, /src/pages/buddy/Leaderboard.jsx, /src/pages/parent/Overview.jsx, /src/pages/parent/Reports.jsx, /src/pages/parent/Reminders.jsx, /src/pages/teacher/SharedNotes.jsx, /src/pages/student/Pomodoro.jsx, /src/components/layout/Sidebar.jsx, /src/components/flashcards/FlashCardGrid.jsx, /src/components/layout/Topbar.jsx
+9:05:27 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:05:56 AM [vite] hmr update /src/index.css, /src/pages/student/Setup.jsx, /src/pages/student/Flashcards.jsx, /src/pages/stud9:05:56 AM [vite] hmr update /src/index.css, /src/pages/student/Flashcards.jsx, /src/pages/student/Notes.jsx, /src/pages/student/Planner.jsx, /src/p9:06:26 AM [vite] hmr update /src/pages/student/Setup.jsx, /src/index.css
+9:06:28 AM [vite] hmr update /src/pages/student/Flashcards.jsx, /src/index.css
+9:06:34 AM [vite] hmr update /src/pages/student/Notes.jsx, /src/index.css
+9:07:23 AM [vite] hmr update /src/pages/student/Planner.jsx, /src/index.css
+9:07:25 AM [vite] hmr update /src/pages/student/Quiz.jsx, /src/index.css
+9:07:27 AM [vite] hmr update /src/pages/teacher/QuestionBank.jsx, /src/index.css
+9:07:29 AM [vite] hmr update /src/pages/teacher/SharedNotes.jsx, /src/index.css
+10:13:44 AM [vite] hmr update /src/index.css, /src/pages/student/Setup.jsx, /src/pages/student/Flashcards.jsx, /src/pages/student/Planner.jsx, /src/pages/student/Notes.jsx, /src/pages/student/Quiz.jsx, /src/pages/teacher/QuestionBank.jsx, /src/pages/teacher/SharedNotes.jsx
+10:23:12 AM [vite] hmr update /src/index.css, /src/pages/student/Setup.jsx, /src/pages/student/Flashcards.jsx, /src/pages/student/Planner.jsx, /src/pages/student/Notes.jsx, /src/pages/student/Quiz.jsx, /src/pages/teacher/QuestionBank.jsx, /src/pages/teacher/SharedNotes.jsx
+10:46:06 AM [vite] hmr update /src/index.css, /src/pages/student/Setup.jsx, /src/pages/student/Flashcards.jsx, /src/pages/stu10:46:06 AM [vite] hmr update /src/index.css, /src/pages/student/Flashcards.jsx, /src/pages/student/Notes.jsx, /src/pages/student/Planner.jsx, /src/p5:22:15 PM [vite] hmr update /src/index.css, /src/pages/student/Setup.jsx, /src/pages/student/Flashcards.jsx, /src/pages/student/Planner.jsx, /src/pages/student/Notes.jsx, /src/pages/student/Quiz.jsx, /src/pages/teacher/QuestionBank.jsx, /src/pages/teacher/SharedNotes.jsx
+ages/student/Quiz.jsx, /src/pages/teacher/QuestionBank.jsx, /src/pages/student/Setup.jsx, /src/pages/teacher/SharedNotes.jsx
