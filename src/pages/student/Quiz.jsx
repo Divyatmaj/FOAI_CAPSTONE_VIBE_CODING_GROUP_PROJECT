@@ -66,30 +66,33 @@ const Quiz = () => {
       return;
     }
 
-    const text = await generate(
-      `Generate 10 multiple-choice questions for "${store.chapter || store.subject}" at ${store.level} level.
+   const text = await generate(
+`Generate 10 multiple-choice questions for "${store.chapter || store.subject}" at ${store.level} level.
 
 STRICT RULES:
-- Return ONLY JSON array
-- No explanation
-- No markdown
-- No text before or after
+- Output ONLY valid JSON
+- Do NOT include markdown (no \`\`\`)
+- Do NOT include any explanation outside JSON
+- Do NOT include numbering or text before/after JSON
+- Each question MUST have exactly 4 options
+- The "answer" MUST be one of: "A", "B", "C", "D" (NOT full text)
 
-Format:
+FORMAT:
 [
   {
-    "question": "text",
-    "options": ["option1", "option2", "option3", "option4"],
-    "answer": "one of the options exactly",
-    "topic": "topic",
-    "difficulty": "easy|medium|hard",
+    "question": "Question text",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "answer": "A",
+    "topic": "topic name",
+    "difficulty": "easy",
     "explanation": "short explanation"
   }
 ]
 `,
-      '',
-      'quiz'
-    );
+'',
+'quiz'
+);
+
 
     const q = safeParseQuiz(text);
 
